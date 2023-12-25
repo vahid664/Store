@@ -1,0 +1,63 @@
+@font-face{font-family:'iransans';src:url('../../iransans/IRANSansWeb(FaNum).ttf') format('truetype');src:url('../../iransans/IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'),
+url('../../iransans/IRANSansWeb(FaNum).eot'),
+url('../../iransans/IRANSansWeb(FaNum).woff2') format('woff2'),
+url('../../iransans/IRANSansWeb(FaNum).woff') format('woff');}
+
+html, body{
+    font-family: 'iransans' !important;
+}
+
+.bg-table-row{
+    background-color: #e0e0e0;
+}
+
+.max-height-multi-select{
+    max-height: 56px;
+}
+
+@media print {
+    a:link {
+        border-bottom: none !important;
+        text-decoration: none !important;
+    }
+    a[href]:after {
+        content: none !important;
+    }
+}
+
+.font-16{
+    font-size: 16px;
+}
+
+.dropdown-toggle:after{
+    vertical-align: 0.1rem !important;
+}
+.bootstrap-select .dropdown-toggle .filter-option{
+    text-align: right !important;
+}
+
+
+select.form-control:not([size]):not([multiple]) {
+    height: 2.12rem;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(77, 77, 77, 0.36) !important;
+    opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgba(77, 77, 77, 0.36) !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgba(77, 77, 77, 0.36) !important;
+}
+.Loading{
+    /*left:40%;*/
+    position:fixed;
+    text-align:center;
+    top:330px;
+    width:100%;
+    z-index:9999;
+    display:none;
+}

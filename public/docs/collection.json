@@ -1,0 +1,210 @@
+{
+    "variables": [],
+    "info": {
+        "name": "\u0627\u0633\u062a\u0627\u0648\u06cc\u062a\u0627 \u0627\u0633\u062a\u0648\u0631 API",
+        "_postman_id": "d78faa0e-ad28-4f83-993a-2ad015b5ffdf",
+        "description": "",
+        "schema": "https:\/\/schema.getpostman.com\/json\/collection\/v2.0.0\/collection.json"
+    },
+    "item": [
+        {
+            "name": "Product",
+            "description": "\nAPIs for managing users",
+            "item": [
+                {
+                    "name": "List Product with paginate 1000",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "stavitastore.net\/",
+                            "path": "api\/Snapp\/Product",
+                            "query": [
+                                {
+                                    "key": "page",
+                                    "value": "5",
+                                    "description": "The page number to return",
+                                    "disabled": false
+                                }
+                            ]
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Api-Version",
+                                "value": "v1"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Get Product Details",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "stavitastore.net\/",
+                            "path": "api\/Snapp\/Product\/:Product",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Api-Version",
+                                "value": "v1"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Update Entity Product",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "stavitastore.net\/",
+                            "path": "api\/Snapp\/Product\/:Product",
+                            "query": []
+                        },
+                        "method": "PUT",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Api-Version",
+                                "value": "v1"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"_method\": \"PUT\",\n    \"entity\": \"2\"\n}"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                }
+            ]
+        },
+        {
+            "name": "User",
+            "description": "\nAPIs for managing users",
+            "item": [
+                {
+                    "name": "Login a user",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "stavitastore.net\/",
+                            "path": "api\/Snapp\/login",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Api-Version",
+                                "value": "v1"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"email\": \"info@snapp.com\",\n    \"password\": \"vero\"\n}"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "logout",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "stavitastore.net\/",
+                            "path": "api\/Snapp\/logout",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Authorization",
+                                "value": "Bearer {token}"
+                            },
+                            {
+                                "key": "Api-Version",
+                                "value": "v1"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                }
+            ]
+        }
+    ]
+}

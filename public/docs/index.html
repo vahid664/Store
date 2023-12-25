@@ -1,0 +1,556 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>API Reference</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/all.js"></script>
+
+
+          <script>
+        $(function() {
+            setupLanguages(["bash","javascript"]);
+        });
+      </script>
+      </head>
+
+  <body class="">
+    <a href="#" id="nav-button">
+      <span>
+        NAV
+        <img src="images/navbar.png" />
+      </span>
+    </a>
+    <div class="tocify-wrapper">
+        <img src="images/logo.png" />
+                    <div class="lang-selector">
+                                  <a href="#" data-language-name="bash">bash</a>
+                                  <a href="#" data-language-name="javascript">javascript</a>
+                            </div>
+                            <div class="search">
+              <input type="text" class="search" id="input-search" placeholder="Search">
+            </div>
+            <ul class="search-results"></ul>
+              <div id="toc">
+      </div>
+                    <ul class="toc-footer">
+                                  <li><a href='http://github.com/mpociot/documentarian'>Documentation Powered by Documentarian</a></li>
+                            </ul>
+            </div>
+    <div class="page-wrapper">
+      <div class="dark-box"></div>
+      <div class="content">
+          <!-- START_INFO -->
+<h1>Info</h1>
+<p>Welcome to the generated API reference.
+<a href="http://stavitastore.net/docs/collection.json">Get Postman Collection</a></p>
+<!-- END_INFO -->
+<h1>Product</h1>
+<p>APIs for managing users</p>
+<!-- START_13b65fd56c24a3cc88d64744a1f04cbe -->
+<h2>List Product with paginate 1000</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET \
+    -G "https://stavitastore.net/api/Snapp/Product?page=5" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json" \
+    -H "Authorization: Bearer {token}" \
+    -H "Api-Version: v1"</code></pre>
+<pre><code class="language-javascript">const url = new URL(
+    "https://stavitastore.net/api/Snapp/Product"
+);
+
+let params = {
+    "page": "5",
+};
+Object.keys(params)
+    .forEach(key =&gt; url.searchParams.append(key, params[key]));
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "Authorization": "Bearer {token}",
+    "Api-Version": "v1",
+};
+
+fetch(url, {
+    method: "GET",
+    headers: headers,
+})
+    .then(response =&gt; response.json())
+    .then(json =&gt; console.log(json));</code></pre>
+<blockquote>
+<p>Example response (200):</p>
+</blockquote>
+<pre><code class="language-json">{
+    "response": {
+        "data": [
+            {
+                "id": 3,
+                "title": "شامپو استم سل مخصوص موهای خشک و آسیب دیده حجم 250 میلی لیتر",
+                "title_en": "stem cell dry and damage therapy",
+                "link": "http:\/\/stavita.test\/product\/3-stem-cell-dry-and-damage-therapy",
+                "price": "66000",
+                "entity": 0,
+                "status": 0,
+                "short_text": null,
+                "long_text": "&lt;p style=\"text-align:justify\"&gt;استم سل علاوه بر حذف سولفات، تمام پارابن&amp;zwnj;ها، سیلیکون&amp;zwnj;ها و 7 ماده مضرو سرطانی دیگر را نیز از ترکیب خود حذف کرده است.استفاده از این شامپو باعث آبرسانی و بهبود خشکی پوست سر شده و از مشکلات ناشی از موی خشک و آسیب دیده از جمله ریزش مو، نازک شدن تار موها، شوره سر، خارش پوست سر و &amp;hellip; نیز پیشگیری می کند ، همچنین این شامپوها سبوم (چربی) نرمال پوست سر را حفظ می نماید. و به تسریع جریان خون در پوست سر کمک کرده و باعث تسکین التهاب می شود. محتویات این شامپو ترکیبات گیاهی موثر عصاره بابونه، عصاره آلوئه ورا، پروتئین هیدرولیز شده سبزیجات، پروویتامینB5 و شی باتر و روغن آرگان و روغن جوانه گندم می باشد.شی باتر به عنوان یک لایه محافظتی قوی اطراف مو آن را در برابر آسیب های احتمالی اتو مو و سشوار مصون نگه می دارد.روغن آرگان، باعث رشد موی سالم و قوی به جای موی ضعیف و شکننده میشود.و در از بین بردن وز شدگی مو و موخوره بسیار موثر است.و موجب نرمی ،&amp;zwnj; لطافت و درخشندگی موها میشود. همچنین روغن جوانه گندم حاوی مقادیر بالایی از ویتامینE و A و D و سرشار از پروتئین است و در درمان ریزش مو، رفع شوره سر و تقویت موی سر موثر می باشد، و آثار زیانبار رادیکالهای آزاد را خنثی نموده و برای موهای خشک بسیار مفید است. نا گفته نماند تمامی شامپوهای استم سل مناسب برای شستشو بعد از کراتینه کردن ، دکلره و رنگ مو است.&lt;\/p&gt;",
+                "color": [],
+                "size": {
+                    "data": [
+                        {
+                            "title": "متوسط"
+                        }
+                    ]
+                },
+                "brand": {
+                    "title": "ال جی",
+                    "title_en": "LG",
+                    "link": "http:\/\/stavita.test\/brand\/lg"
+                },
+                "pics": {
+                    "data": [
+                        {
+                            "title": "شامپو استم سل مخصوص موهای خشک و آسیب دیده حجم 250 میلی لیتر",
+                            "link": "http:\/\/stavita.test\/upload\/product\/2020\/09\/26212841.jpg"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 4,
+                "title": "شامپو استم سل پرو مخصوص موهای هایلایت و رنگ شده مدل Colour Care حجم 250 میلی لیتر",
+                "title_en": "Pro stem cell color care shampoo",
+                "link": "http:\/\/stavita.test\/product\/4-pro-stem-cell-color-care-shampoo",
+                "price": "46000",
+                "entity": 5,
+                "status": 1,
+                "short_text": null,
+                "long_text": "&lt;p&gt;شامپوی حرفه&amp;zwnj;ای&amp;nbsp;&lt;strong&gt;استم سل پرو&amp;nbsp;&lt;\/strong&gt;با استفاده از مواد کاملا گیاهی و مواد موثره ملایم و فاقد هرگونه مواد شیمیایی مضر می&amp;zwnj;باشد و بدون آسیب به پوست سر و ایجاد خشکی موجب تقویت موهای هایلایت و رنگ شده گشته و به بهبود ساختار مو، درخشندگی بیشتر و دوام رنگ موها کمک می&amp;zwnj;نماید.&lt;\/p&gt;\r\n\r\n&lt;p&gt;&lt;strong&gt;دستور مصرف&lt;\/strong&gt;: مقدار مناسبی از شامپو را روی موهای خیس ماساژ داده و در حین شستشو آب اضافه نموده و به طور کامل آبکشی نمایید.&lt;\/p&gt;\r\n\r\n&lt;p&gt;&amp;nbsp;&lt;\/p&gt;\r\n\r\n&lt;p&gt;ویژگی&amp;zwnj;های این محصول&lt;\/p&gt;\r\n\r\n&lt;ul&gt;\r\n\t&lt;li&gt;فاقد هرگونه مواد شیمیایی&lt;\/li&gt;\r\n\t&lt;li&gt;بدون آسیب به پوست&lt;\/li&gt;\r\n\t&lt;li&gt;بدون ایجاد خشکی پوست سر&lt;\/li&gt;\r\n\t&lt;li&gt;آبرسانی و احیای موهای دکلره، رنک و هایلایت شده&lt;\/li&gt;\r\n\t&lt;li&gt;فاقد سولفات، پارابن و نمک&lt;\/li&gt;\r\n\t&lt;li&gt;فاقد مواد شیمیایی مضر تثبیت کننده رنگ مو&lt;\/li&gt;\r\n\t&lt;li&gt;مناسب برای بعد از کراتین، صافی و ریباندینگ&lt;\/li&gt;\r\n&lt;\/ul&gt;",
+                "color": [],
+                "size": {
+                    "data": [
+                        {
+                            "title": "متوسط"
+                        }
+                    ]
+                },
+                "brand": {
+                    "title": "استم سل",
+                    "title_en": "Stem Cell",
+                    "link": "http:\/\/stavita.test\/brand\/stem-cell"
+                },
+                "pics": {
+                    "data": [
+                        {
+                            "title": "شامپو استم سل پرو مخصوص موهای هایلایت و رنگ شده مدل Colour Care حجم 250 میلی لیتر",
+                            "link": "http:\/\/stavita.test\/upload\/product\/2020\/09\/21950523.jpg"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 5,
+                "title": "شامپو ضد ریزش و تقویت کننده موهای چرب استم سل پرو مدل Oily Scalp حجم 250 میلی لیتر",
+                "title_en": "pro stem cell anti hair loss care",
+                "link": "http:\/\/stavita.test\/product\/5-pro-stem-cell-anti-hair-loss-care",
+                "price": "9000",
+                "entity": 0,
+                "status": 0,
+                "short_text": null,
+                "long_text": "&lt;p&gt;شامپوی حرفه&amp;zwnj;ای&amp;nbsp;&lt;strong&gt;استم سل پرو&amp;nbsp;&lt;\/strong&gt;با استفاده از مواد کاملا گیاهی و مواد موثره ملایم و فاقد هرگونه مواد شیمیایی مضر می&amp;zwnj;باشد و با جلوگیری از خشکی بیش از حد و آسیب به پوست سر و موها چربی ااضافی را از بین می&amp;zwnj;برد و ترشح چربی غدد سسباسه را کنترل و تنظیم می&amp;zwnj;کند.&lt;\/p&gt;\r\n\r\n&lt;p&gt;&lt;strong&gt;دستور مصرف&lt;\/strong&gt;: مقدار مناسبی از شامپو را روی موهای خیس ماساژ داده و در حین شستشو آب اضافه نموده و به طور کامل آبکشی نمایید.&lt;\/p&gt;",
+                "color": [],
+                "size": [],
+                "brand": {
+                    "title": "ال جی",
+                    "title_en": "LG",
+                    "link": "http:\/\/stavita.test\/brand\/lg"
+                },
+                "pics": {
+                    "data": [
+                        {
+                            "title": "شامپو ضد ریزش و تقویت کننده موهای چرب استم سل پرو مدل Oily Scalp",
+                            "link": "http:\/\/stavita.test\/upload\/product\/2020\/09\/13015363.jpg"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 6,
+                "title": "شامپو استم سل پرو مدل Hair loss care حجم 250 میلی لیتر",
+                "title_en": "stem cell pro hair loss care",
+                "link": "http:\/\/stavita.test\/product\/6-stem-cell-pro-hair-loss-care",
+                "price": "46000",
+                "entity": 6,
+                "status": 1,
+                "short_text": null,
+                "long_text": "&lt;p&gt;شامپوی حرفه&amp;zwnj;ای&amp;nbsp;&lt;strong&gt;استم سل پرو&amp;nbsp;&lt;\/strong&gt;با استفاده از مواد کاملا گیاهی و مواد موثره ملایم و فاقد هرگونه مواد شیمیایی مضر می&amp;zwnj;باشد و موجب جلوگیری از حشکی و آسیب به پوست سر و موها می&amp;zwnj;شود. فعالیت آنزیم 5-آلفا-ردوکتاز را مهار کرده و از تولید DHT (عامل اصلی ریزش مو) پیشگیری می&amp;zwnj;نماید.&lt;\/p&gt;\r\n\r\n&lt;p&gt;&lt;strong&gt;دستور مصرف&lt;\/strong&gt;: مقدار مناسبی از شامپو را روی موهای خیس ماساژ داده و در حین شستشو آب اضافه نموده و به طور کامل آبکشی نمایید.&lt;\/p&gt;",
+                "color": [],
+                "size": [],
+                "brand": {
+                    "title": "استم سل",
+                    "title_en": "Stem Cell",
+                    "link": "http:\/\/stavita.test\/brand\/stem-cell"
+                },
+                "pics": {
+                    "data": [
+                        {
+                            "title": "شامپو استم سل پرو مدل Hair loss care",
+                            "link": "http:\/\/stavita.test\/upload\/product\/2020\/09\/34813177.jpg"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 7,
+                "title": "شامپو استم سل پرو مخصوص موهای خشک و آسیب دیده مدل Dry &amp; Damage Care حجم 250 میلی لیتر",
+                "title_en": "pro stem cell dry and damage shampoo",
+                "link": "http:\/\/stavita.test\/product\/7-pro-stem-cell-dry-and-damage-shampoo",
+                "price": "46000",
+                "entity": 6,
+                "status": 1,
+                "short_text": null,
+                "long_text": "&lt;p&gt;شامپوی حرفه&amp;zwnj;ای&amp;nbsp;&lt;strong&gt;استم سل پرو&amp;nbsp;&lt;\/strong&gt;با استفاده از مواد کاملا گیاهی و مواد موثره ملایم و فاقد هرگونه مواد شیمیایی مضر می&amp;zwnj;باشد و بدون آسیب به پوست سر و ایجاد خشکی، موها را آبرسانی و تقویت می&amp;zwnj;کند.&lt;\/p&gt;\r\n\r\n&lt;p&gt;&lt;strong&gt;دستور مصرف&lt;\/strong&gt;: مقدار مناسبی از شامپو را روی موهای خیس ماساژ داده و در حین شستشو آب اضافه نموده و به طور کامل آبکشی نمایید.&lt;\/p&gt;",
+                "color": [],
+                "size": [],
+                "brand": {
+                    "title": "استم سل",
+                    "title_en": "Stem Cell",
+                    "link": "http:\/\/stavita.test\/brand\/stem-cell"
+                },
+                "pics": {
+                    "data": [
+                        {
+                            "title": "شامپو استم سل پرو مخصوص موهای خشک و آسیب دیده مدل Dry &amp; Damage Care",
+                            "link": "http:\/\/stavita.test\/upload\/product\/2020\/09\/43622496.jpg"
+                        }
+                    ]
+                }
+            }
+        ],
+        "pagination": {
+            "total": 69,
+            "count": 5,
+            "per_page": 5,
+            "current_page": 1,
+            "total_pages": 14
+        }
+    },
+    "message": "Success",
+    "code": 200
+}</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET api/Snapp/Product</code></p>
+<h4>Query Parameters</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Status</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>page</code></td>
+<td>optional</td>
+<td>The page number to return</td>
+</tr>
+</tbody>
+</table>
+<!-- END_13b65fd56c24a3cc88d64744a1f04cbe -->
+<!-- START_90183c3a9b9c3110d5eef6e6d03d2140 -->
+<h2>Get Product Details</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X GET \
+    -G "https://stavitastore.net/api/Snapp/Product/1" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json" \
+    -H "Authorization: Bearer {token}" \
+    -H "Api-Version: v1"</code></pre>
+<pre><code class="language-javascript">const url = new URL(
+    "https://stavitastore.net/api/Snapp/Product/1"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "Authorization": "Bearer {token}",
+    "Api-Version": "v1",
+};
+
+fetch(url, {
+    method: "GET",
+    headers: headers,
+})
+    .then(response =&gt; response.json())
+    .then(json =&gt; console.log(json));</code></pre>
+<blockquote>
+<p>Example response (200):</p>
+</blockquote>
+<pre><code class="language-json">{
+    "response": {
+        "id": 72,
+        "title": "نرم کننده و ترمیم کننده ال جی سری Elastine مدل Silk Repair Shining حجم 400",
+        "title_en": "LG silk repair shining elastine conditioner",
+        "link": "http:\/\/stavita.test\/product\/72-lg-silk-repair-shining-elastine-conditioner",
+        "price": "380000",
+        "entity": 1,
+        "status": 1,
+        "short_text": "&lt;ul&gt;\r\n\t&lt;li&gt;مناسب&amp;nbsp;موهای خشک و موهای آسیب دیده&lt;\/li&gt;\r\n\t&lt;li&gt;&amp;nbsp;ترمیم کننده، درخشان کننده و نرم کننده موهای آسیب دیده و خشک&lt;\/li&gt;\r\n\t&lt;li&gt;دارای روغن نارگیل&lt;\/li&gt;\r\n\t&lt;li&gt;\r\n\t&lt;p&gt;نرم&amp;zwnj;کننده و ترمیم کننده&lt;\/p&gt;\r\n\t&lt;\/li&gt;\r\n&lt;\/ul&gt;",
+        "long_text": "&lt;ul&gt;\r\n\t&lt;li&gt;مناسب&amp;nbsp;موهای خشک و موهای آسیب دیده&lt;\/li&gt;\r\n\t&lt;li&gt;&amp;nbsp;ترمیم کننده، درخشان کننده و نرم کننده موهای آسیب دیده و خشک&lt;\/li&gt;\r\n\t&lt;li&gt;دارای روغن نارگیل&lt;\/li&gt;\r\n\t&lt;li&gt;\r\n\t&lt;p&gt;نرم&amp;zwnj;کننده و ترمیم کننده&lt;\/p&gt;\r\n\t&lt;\/li&gt;\r\n&lt;\/ul&gt;",
+        "color": {
+            "data": [
+                {
+                    "title": "سبز",
+                    "color": "#00ff11",
+                    "title_factory": "st000"
+                },
+                {
+                    "title": "قرمز",
+                    "color": "#ff0000",
+                    "title_factory": "stro33"
+                },
+                {
+                    "title": "ان 1",
+                    "color": "#bb936f",
+                    "title_factory": "stn01"
+                }
+            ]
+        },
+        "size": {
+            "data": [
+                {
+                    "title": "کوچک"
+                }
+            ]
+        },
+        "brand": {
+            "title": "ال جی",
+            "title_en": "LG",
+            "link": "http:\/\/stavita.test\/brand\/lg"
+        },
+        "pics": {
+            "data": [
+                {
+                    "title": "dsds",
+                    "link": "http:\/\/stavita.test\/upload\/product\/2020\/11\/61866559.png"
+                }
+            ]
+        }
+    },
+    "message": "Success",
+    "code": 200
+}</code></pre>
+<h3>HTTP Request</h3>
+<p><code>GET api/Snapp/Product/{Product}</code></p>
+<!-- END_90183c3a9b9c3110d5eef6e6d03d2140 -->
+<!-- START_25f5101f7f46c899cacc3b8a2d0710f2 -->
+<h2>Update Entity Product</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X PUT \
+    "https://stavitastore.net/api/Snapp/Product/1" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json" \
+    -H "Authorization: Bearer {token}" \
+    -H "Api-Version: v1" \
+    -d '{"_method":"PUT","entity":"2"}'
+</code></pre>
+<pre><code class="language-javascript">const url = new URL(
+    "https://stavitastore.net/api/Snapp/Product/1"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "Authorization": "Bearer {token}",
+    "Api-Version": "v1",
+};
+
+let body = {
+    "_method": "PUT",
+    "entity": "2"
+}
+
+fetch(url, {
+    method: "PUT",
+    headers: headers,
+    body: body
+})
+    .then(response =&gt; response.json())
+    .then(json =&gt; console.log(json));</code></pre>
+<blockquote>
+<p>Example response (200):</p>
+</blockquote>
+<pre><code class="language-json">{
+    "response": {
+        "response": null,
+        "message": "ثبت موفق خرید اسنپ",
+        "code": 200
+    }
+}</code></pre>
+<h3>HTTP Request</h3>
+<p><code>PUT api/Snapp/Product/{Product}</code></p>
+<p><code>PATCH api/Snapp/Product/{Product}</code></p>
+<h4>Body Parameters</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Status</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>_method</code></td>
+<td>string</td>
+<td>required</td>
+<td>value PUT.</td>
+</tr>
+<tr>
+<td><code>entity</code></td>
+<td>numeric</td>
+<td>required</td>
+<td>Number of user purchases of the desired product.</td>
+</tr>
+</tbody>
+</table>
+<!-- END_25f5101f7f46c899cacc3b8a2d0710f2 -->
+<h1>User</h1>
+<p>APIs for managing users</p>
+<!-- START_afc9865b9a797c308029477f5f42b11b -->
+<h2>Login a user</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X POST \
+    "https://stavitastore.net/api/Snapp/login" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json" \
+    -H "Authorization: Bearer {token}" \
+    -H "Api-Version: v1" \
+    -d '{"email":"info@snapp.com","password":"vero"}'
+</code></pre>
+<pre><code class="language-javascript">const url = new URL(
+    "https://stavitastore.net/api/Snapp/login"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "Authorization": "Bearer {token}",
+    "Api-Version": "v1",
+};
+
+let body = {
+    "email": "info@snapp.com",
+    "password": "vero"
+}
+
+fetch(url, {
+    method: "POST",
+    headers: headers,
+    body: body
+})
+    .then(response =&gt; response.json())
+    .then(json =&gt; console.log(json));</code></pre>
+<blockquote>
+<p>Example response (200):</p>
+</blockquote>
+<pre><code class="language-json">{
+    "response": {
+        "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9NmU3NzJmOTNjMDJiNWM5ZDc1MmMyMDk0MWY3MjZhY2E4MTI4YTQzMDEzMzQwZjQwOTI3M2QzYmM1NjhlMzFjNDc4MGRjNWM3ZDIxYWUiLCJpYXQiOjE2MTUzNjQzMzksIm5iZiI6MTYxNTM2NDMzOSwiZXhwIjoxNjQ2OTAwMzM5LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.g7bhRqxl-WeVGacF226Hi3w1H-vD9xQewg-cRRjD4DxQ9JNebFY_uRUiPB4cfPjbKt8RpjGOMrA_ObQ1r9gtigRjRHUscKfNQKzBeTHLDoHQ7w0YrxJ4RZagfHnJsNdWGlvws6JZwbbJLrxU33M8Xztk1N5UIQhA0KIayGNmhXZKfqxLnlExAxYqbd5RZyUWmUrWH5SLEzFmIc9MBih6aj4d2QQ1aLEF2DCIN3V9ReMzGzsLEwV7rrEUojntX_gzhqaNIbXRV1N-Nf1OFI7yOFX4YujApGp1s3vdIoHxQUoHgZszDPg5Ub738MViX_QchakpUhaZnvtt4Vvc_0ySTQ12DKB5ZfUKbhL5fpVZjBVFi0LK0ypKJmuWTrfCgSUR33Uudv1Ld4gs3ERweYsP25unpXtm3YgMKEtMmF2PFTyisdA5_zJge8DG1C1kcyYSpbHVpPkpy67zZP8eQyWDzU8SnRcSBE_7u5IwOrvt2q8K61XzoQa_RDUKjgFKn3CPIstKoRhrMMsWKmIygywrVi3HXuExL36CnBwdYuw2wg0WeavN69RgNH2yCTZYSkfonxAyOGioIYdL_21Y0C9FrT8DSCyjBfRG4JauGdlqyU3fHAdBdxTCH-im-POCBBF0fqtUqHlEs3jgnaOHjHLewoZ809W3j7V5BTW4wg56gus",
+        "token_type": "Bearer",
+        "expires_at": "2022-03-10 11:48:59"
+    },
+    "message": "Success",
+    "code": 200
+}</code></pre>
+<h3>HTTP Request</h3>
+<p><code>POST api/Snapp/login</code></p>
+<h4>Body Parameters</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Status</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>email</code></td>
+<td>required</td>
+<td>optional</td>
+<td>The email of the user.</td>
+</tr>
+<tr>
+<td><code>password</code></td>
+<td>string</td>
+<td>optional</td>
+<td>The password of the user.</td>
+</tr>
+</tbody>
+</table>
+<!-- END_afc9865b9a797c308029477f5f42b11b -->
+<!-- START_00e6240423bdfd18558404e1dde1e4b8 -->
+<h2>logout</h2>
+<blockquote>
+<p>Example request:</p>
+</blockquote>
+<pre><code class="language-bash">curl -X POST \
+    "https://stavitastore.net/api/Snapp/logout" \
+    -H "Content-Type: application/json" \
+    -H "Accept: application/json" \
+    -H "Authorization: Bearer {token}" \
+    -H "Api-Version: v1"</code></pre>
+<pre><code class="language-javascript">const url = new URL(
+    "https://stavitastore.net/api/Snapp/logout"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "Authorization": "Bearer {token}",
+    "Api-Version": "v1",
+};
+
+fetch(url, {
+    method: "POST",
+    headers: headers,
+})
+    .then(response =&gt; response.json())
+    .then(json =&gt; console.log(json));</code></pre>
+<blockquote>
+<p>Example response (200):</p>
+</blockquote>
+<pre><code class="language-json">{
+    "response": null,
+    "message": "logout",
+    "code": 200
+}</code></pre>
+<h3>HTTP Request</h3>
+<p><code>POST api/Snapp/logout</code></p>
+<!-- END_00e6240423bdfd18558404e1dde1e4b8 -->
+      </div>
+      <div class="dark-box">
+                        <div class="lang-selector">
+                                    <a href="#" data-language-name="bash">bash</a>
+                                    <a href="#" data-language-name="javascript">javascript</a>
+                              </div>
+                </div>
+    </div>
+  </body>
+</html>

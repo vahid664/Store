@@ -1,0 +1,64 @@
+[14-Sep-2021 15:49:15 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/cp47959/public_html/routes/api.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/routes/api.php on line 22
+[14-Sep-2021 15:49:22 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Auth' not found in /home/cp47959/public_html/routes/web.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/routes/web.php on line 18
+[14-Sep-2021 15:56:39 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Auth' not found in /home/cp47959/public_html/routes/web.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/routes/web.php on line 18
+[14-Sep-2021 16:02:13 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Auth' not found in /home/cp47959/public_html/routes/web.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/routes/web.php on line 18
+[14-Sep-2021 16:02:14 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/cp47959/public_html/routes/api.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/routes/api.php on line 22
+[14-Sep-2021 16:02:41 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Breadcrumbs' not found in /home/cp47959/public_html/routes/breadcrumbs.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/routes/breadcrumbs.php on line 3
+[14-Sep-2021 16:07:41 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/cp47959/public_html/routes/api.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/routes/api.php on line 22
+[14-Sep-2021 16:07:42 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Auth' not found in /home/cp47959/public_html/routes/web.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/routes/web.php on line 18
+[14-Sep-2021 16:07:42 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Breadcrumbs' not found in /home/cp47959/public_html/routes/breadcrumbs.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/routes/breadcrumbs.php on line 3
+[14-Sep-2021 16:14:03 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Auth' not found in /home/cp47959/public_html/routes/web.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/routes/web.php on line 18
+[14-Sep-2021 16:14:06 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/cp47959/public_html/routes/api.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/routes/api.php on line 22
+[14-Sep-2021 16:14:08 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Breadcrumbs' not found in /home/cp47959/public_html/routes/breadcrumbs.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/routes/breadcrumbs.php on line 3
+[14-Sep-2021 16:24:32 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Auth' not found in /home/cp47959/public_html/routes/web.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/routes/web.php on line 18
+[16-Sep-2021 06:27:10 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\Facades\Route' not found in /home/cp47959/public_html/routes/api.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/routes/api.php on line 22
+[16-Sep-2021 06:27:10 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Auth' not found in /home/cp47959/public_html/routes/web.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/routes/web.php on line 18
+[16-Sep-2021 06:27:10 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Breadcrumbs' not found in /home/cp47959/public_html/routes/breadcrumbs.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/routes/breadcrumbs.php on line 3

@@ -1,0 +1,68 @@
+[14-Sep-2021 15:46:22 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/cp47959/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/config/database.php on line 18
+[14-Sep-2021 15:46:39 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/cp47959/public_html/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/config/cache.php on line 21
+[14-Sep-2021 15:46:53 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/cp47959/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/config/services.php on line 18
+[16-Sep-2021 06:27:00 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function base_path() in /home/cp47959/public_html/config/breadcrumbs.php:40
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/config/breadcrumbs.php on line 40
+[16-Sep-2021 06:27:01 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/cp47959/public_html/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/config/filesystems.php on line 16
+[16-Sep-2021 06:27:01 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/cp47959/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/config/database.php on line 18
+[16-Sep-2021 06:27:01 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/cp47959/public_html/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/config/app.php on line 16
+[16-Sep-2021 06:27:01 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/cp47959/public_html/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/config/services.php on line 18
+[16-Sep-2021 06:27:02 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/cp47959/public_html/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/config/hashing.php on line 32
+[16-Sep-2021 06:27:02 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function config() in /home/cp47959/public_html/config/payment.php:191
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/config/payment.php on line 191
+[16-Sep-2021 06:27:02 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/cp47959/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/config/queue.php on line 16
+[16-Sep-2021 06:27:03 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/cp47959/public_html/config/cache.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/config/cache.php on line 21
+[16-Sep-2021 06:27:03 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/cp47959/public_html/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/config/view.php on line 17
+[16-Sep-2021 06:27:03 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/cp47959/public_html/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/config/broadcasting.php on line 18
+[16-Sep-2021 06:27:03 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/cp47959/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/config/session.php on line 21
+[16-Sep-2021 06:27:05 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/cp47959/public_html/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/config/mail.php on line 16
+[16-Sep-2021 06:27:05 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/cp47959/public_html/config/logging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/config/logging.php on line 20

@@ -1,0 +1,236 @@
+[19-Aug-2021 16:46:26 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/Advertise.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/Advertise.php on line 8
+[19-Aug-2021 16:46:28 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/Article.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/Article.php on line 8
+[19-Aug-2021 16:46:38 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/ArticlePic.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/ArticlePic.php on line 7
+[19-Aug-2021 16:46:41 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/Brand.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/Brand.php on line 8
+[19-Aug-2021 16:46:48 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/Category.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/Category.php on line 8
+[19-Aug-2021 16:46:50 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/Color.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/Color.php on line 8
+[19-Aug-2021 16:46:52 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/Comment.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/Comment.php on line 7
+[19-Aug-2021 16:46:55 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/Contact.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/Contact.php on line 7
+[19-Aug-2021 16:46:57 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/Factor.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/Factor.php on line 8
+[19-Aug-2021 16:47:02 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/FactorGift.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/FactorGift.php on line 7
+[19-Aug-2021 16:47:04 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/FactorOff.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/FactorOff.php on line 7
+[19-Aug-2021 17:04:17 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/Faq.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/Faq.php on line 7
+[19-Aug-2021 17:10:58 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/ModelHasAdevtise.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/ModelHasAdevtise.php on line 7
+[26-Aug-2021 18:42:00 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/Product.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/Product.php on line 8
+[27-Aug-2021 02:36:10 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/Product.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/Product.php on line 8
+[08-Sep-2021 12:16:44 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/Advertise.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/Advertise.php on line 8
+[08-Sep-2021 12:16:45 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/Article.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/Article.php on line 8
+[08-Sep-2021 12:16:48 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/ArticlePic.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/ArticlePic.php on line 7
+[08-Sep-2021 16:07:32 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/Brand.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/Brand.php on line 8
+[08-Sep-2021 16:07:35 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/Category.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/Category.php on line 8
+[08-Sep-2021 16:07:37 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/Color.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/Color.php on line 8
+[08-Sep-2021 16:07:38 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/Comment.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/Comment.php on line 7
+[08-Sep-2021 16:07:40 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/Contact.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/Contact.php on line 7
+[08-Sep-2021 16:07:43 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/Factor.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/Factor.php on line 8
+[08-Sep-2021 16:07:46 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/FactorGift.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/FactorGift.php on line 7
+[08-Sep-2021 16:07:48 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/FactorOff.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/FactorOff.php on line 7
+[08-Sep-2021 16:07:51 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/FactorPeyk.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/FactorPeyk.php on line 7
+[08-Sep-2021 16:07:53 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/FactorProduct.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/FactorProduct.php on line 7
+[08-Sep-2021 19:50:25 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/FactorProductReturned.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/FactorProductReturned.php on line 8
+[08-Sep-2021 19:50:29 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/FactorSnapp.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/FactorSnapp.php on line 7
+[08-Sep-2021 19:50:41 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/Faq.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/Faq.php on line 7
+[08-Sep-2021 19:50:42 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/Favorite.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/Favorite.php on line 7
+[08-Sep-2021 19:50:45 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/Gift.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/Gift.php on line 8
+[08-Sep-2021 19:50:46 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/ModelHasAdevtise.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/ModelHasAdevtise.php on line 7
+[08-Sep-2021 19:50:48 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/NewsEmail.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/NewsEmail.php on line 7
+[08-Sep-2021 19:50:50 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/Off.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/Off.php on line 8
+[08-Sep-2021 19:50:51 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/Page.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/Page.php on line 8
+[08-Sep-2021 19:50:52 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/Peyk.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/Peyk.php on line 7
+[08-Sep-2021 19:50:56 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/PicColorRelation.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/PicColorRelation.php on line 7
+[08-Sep-2021 23:30:10 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/Product.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/Product.php on line 8
+[08-Sep-2021 23:30:13 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/ProductAwesome.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/ProductAwesome.php on line 8
+[08-Sep-2021 23:30:23 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/ProductCategoryRelation.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/ProductCategoryRelation.php on line 7
+[08-Sep-2021 23:30:34 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/ProductColor.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/ProductColor.php on line 7
+[08-Sep-2021 23:30:48 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/ProductDetail.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/ProductDetail.php on line 7
+[08-Sep-2021 23:30:50 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/ProductDetailStructed.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/ProductDetailStructed.php on line 7
+[08-Sep-2021 23:30:52 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/ProductPic.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/ProductPic.php on line 7
+[08-Sep-2021 23:30:54 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/ProductSize.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/ProductSize.php on line 7
+[08-Sep-2021 23:30:57 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/ProvinceCity.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/ProvinceCity.php on line 8
+[08-Sep-2021 23:31:02 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/Redirect.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/Redirect.php on line 7
+[09-Sep-2021 02:58:37 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/SearchSave.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/SearchSave.php on line 7
+[09-Sep-2021 02:58:38 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/Size.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/Size.php on line 8
+[09-Sep-2021 02:58:44 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/Social.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/Social.php on line 8
+[09-Sep-2021 02:58:46 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/Tag.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/Tag.php on line 8
+[09-Sep-2021 02:58:47 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/TagArticleRelation.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/TagArticleRelation.php on line 7
+[09-Sep-2021 02:58:58 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/TagProductRelation.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/TagProductRelation.php on line 7
+[09-Sep-2021 02:59:00 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Auth\User' not found in /home/cp47959/public_html/app/User.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/User.php on line 12
+[09-Sep-2021 02:59:02 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/UserAddress.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/UserAddress.php on line 8
+[09-Sep-2021 02:59:04 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/UserDetail.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/UserDetail.php on line 7
+[09-Sep-2021 02:59:08 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/cp47959/public_html/app/Visit.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/app/Visit.php on line 7

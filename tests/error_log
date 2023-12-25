@@ -1,0 +1,20 @@
+[14-Sep-2021 15:46:47 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/cp47959/public_html/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/tests/TestCase.php on line 7
+[14-Sep-2021 15:57:02 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/cp47959/public_html/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/tests/TestCase.php on line 7
+[14-Sep-2021 16:07:39 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/cp47959/public_html/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/tests/TestCase.php on line 7
+[14-Sep-2021 16:13:47 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/cp47959/public_html/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/tests/TestCase.php on line 7
+[15-Sep-2021 01:44:30 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/cp47959/public_html/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/tests/TestCase.php on line 7

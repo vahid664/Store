@@ -1,0 +1,44 @@
+[14-Sep-2021 16:06:50 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/cp47959/public_html/database/2020_09_05_173953_add_to_table_colors.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/database/2020_09_05_173953_add_to_table_colors.php on line 7
+[14-Sep-2021 16:06:51 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/cp47959/public_html/database/2020_09_02_121041_create_contacts_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/database/2020_09_02_121041_create_contacts_table.php on line 7
+[14-Sep-2021 16:12:24 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/cp47959/public_html/database/2020_09_05_174613_add_to_table_product_colors.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/database/2020_09_05_174613_add_to_table_product_colors.php on line 7
+[14-Sep-2021 16:23:03 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/cp47959/public_html/database/2020_09_05_174613_add_to_table_product_colors.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/database/2020_09_05_174613_add_to_table_product_colors.php on line 7
+[15-Sep-2021 01:44:10 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/cp47959/public_html/database/2020_09_02_121041_create_contacts_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/database/2020_09_02_121041_create_contacts_table.php on line 7
+[15-Sep-2021 05:44:50 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/cp47959/public_html/database/2020_09_05_174613_add_to_table_product_colors.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/database/2020_09_05_174613_add_to_table_product_colors.php on line 7
+[15-Sep-2021 05:44:54 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/cp47959/public_html/database/2020_09_02_121041_create_contacts_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/database/2020_09_02_121041_create_contacts_table.php on line 7
+[15-Sep-2021 05:44:56 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/cp47959/public_html/database/2020_09_05_173953_add_to_table_colors.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/database/2020_09_05_173953_add_to_table_colors.php on line 7
+[16-Sep-2021 06:27:07 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/cp47959/public_html/database/2020_09_05_174613_add_to_table_product_colors.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/database/2020_09_05_174613_add_to_table_product_colors.php on line 7
+[16-Sep-2021 06:27:07 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/cp47959/public_html/database/2020_09_05_173953_add_to_table_colors.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/database/2020_09_05_173953_add_to_table_colors.php on line 7
+[16-Sep-2021 06:27:08 Asia/Tehran] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/cp47959/public_html/database/2020_09_02_121041_create_contacts_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/cp47959/public_html/database/2020_09_02_121041_create_contacts_table.php on line 7
